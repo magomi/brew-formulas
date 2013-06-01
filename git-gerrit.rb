@@ -5,6 +5,8 @@ class GitGerrit < Formula
   homepage 'https://github.com/magomi/git-gerrit'
   sha1 '106fb132b942af5c3b9263e479cabf5011c7c495'
 
+  depends_on 'json' => :python
+
   def install
     # install scripts in bin.
     bin.install Dir['bin/*']
