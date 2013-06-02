@@ -3,7 +3,7 @@ require 'formula'
 class GitGerrit < Formula
   url 'https://github.com/magomi/git-gerrit/tarball/v0.4.0'
   homepage 'https://github.com/magomi/git-gerrit'
-  sha1 '106fb132b942af5c3b9263e479cabf5011c7c495'
+  sha1 '2eea37755ec91f0e2ceeaf88ea0f73df324b5fd1'
 
   depends_on 'json' => :python
 
